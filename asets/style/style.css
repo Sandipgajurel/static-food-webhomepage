@@ -1,0 +1,256 @@
+.body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.asko-container {
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 15px 0px 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* style for navbar  */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.logo {
+    width: 33.33%;
+    padding-top: 15px;
+}
+
+.middleContentNav {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+
+.middleContentNav>link {
+    padding: 0% 1% 0% 1%;
+}
+
+.lastContentNav {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+/* style for image */
+.main-banner {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* content 2 styling */
+.content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content2-left {
+        width: 100%;
+    }
+
+    .content2-right {
+        width: 100%;
+        padding-left: 0%;
+
+    }
+}
+
+.content2-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 0;
+    width: 60%;
+    height: fit-content;
+}
+
+.content2-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    padding: 5%;
+    width: 80%;
+    margin: 30px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.appStorelogo {
+    height: 80%;
+    width: 50%;
+    object-fit: contain;
+}
+
+.content-3 {
+    display: flex;
+}
+
+/* css for content 3 and image 3 */
+.image-3 {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.content-4 {
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5%;
+    margin: 0;
+
+}
+
+.forth-text-left {
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.forth-text-right {
+    width: 80%;
+    padding: 0 250px 0 50px;
+}
+
+
+.recipies {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.recipes-image-conainer {
+    width: 60%;
+}
+
+.recipes-image {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.recicpes-text {
+    padding: 5%;
+    width: 40%;
+}
+
+.bold-text {
+    font-size: 30px;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cooking-image {
+    padding-left: 15px;
+    max-width: 10%;
+    object-fit: contain;
+}
+
+.induction {
+    display: flex;
+    flex-direction: row;
+    background-color: #D3D3D3;
+
+}
+
+.induction-text-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 40px;
+}
+
+.induction-image-container {
+    display: flex;
+    width: 55%;
+}
+
+.induction-image {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.technology {
+    width: 60%;
+    padding-top: 5%;
+}
+
+.technology-text {
+    /* text-align: left; */
+    width: 100%;
+}
+
+.panImage {
+    height: 70%;
+    width: 95%;
+    object-fit: contain;
+    float: right;
+}
+
+.induction-hob {
+    object-fit: contain;
+    width: 100%;
+}
